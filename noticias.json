@@ -1,8 +1,176 @@
 {
- "updated": "2026-11-24T19:58+00:00",
+ "updated": "2026-11-25T07:08+00:00",
  "items": [
   {
-   "t": "EuroLeague roundup: Paris clinches seventh win in a row",
+   "t": "NBA Roundup: Queta explodes for Boston, Mavs halt Jokic",
+   "u": "https://www.eurohoops.net/en/nba-news/2040403/nikola-jokic-nba-european-recap/",
+   "s": "Eurohoops",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-25T05:34+00:00"
+  },
+  {
+   "t": "NBA to celebrate Oscar Robertson, unveil statue during Cup festivities",
+   "u": "https://www.eurohoops.net/en/nba-news/2040397/nba-to-celebrate-oscar-robertsons-lasting-impact-on-basketball-during-emirates-nba-cup-2026/",
+   "s": "Eurohoops",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-25T04:50+00:00"
+  },
+  {
+   "t": "NCAA evolution reshapes international club and national federation ecosystems",
+   "u": "https://www.eurohoops.net/en/ncaa/2040394/fiba-organizes-novel-forum-on-college-basketballs-role-in-global-ecosystem/",
+   "s": "Eurohoops",
+   "l": "en",
+   "c": "international",
+   "d": "2026-11-25T04:35+00:00"
+  },
+  {
+   "t": "Giannis, Wemby highlight European injury list ahead of key Cup games",
+   "u": "https://www.eurohoops.net/en/nba-news/2040392/giannis-antetokounmpo-victor-wembanyama-injury-updates-nba/",
+   "s": "Eurohoops",
+   "l": "en",
+   "c": "international",
+   "d": "2026-11-25T04:30+00:00"
+  },
+  {
+   "t": "Kawhi's return from knee swelling still at least week away",
+   "u": "https://www.espn.com/nba/story/_/id/50587249/kawhi-leonard-return-knee-swelling-least-week-away",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:53+00:00"
+  },
+  {
+   "t": "Sources: Wolves' DiVincenzo eyes New Year's for season debut",
+   "u": "https://www.espn.com/nba/story/_/id/50584000/wolves-dante-divincenzo-cleared-basketball-activities",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:53+00:00"
+  },
+  {
+   "t": "Lakers latest in NBA to establish prediction market partnership",
+   "u": "https://www.espn.com/nba/story/_/id/50586638/lakers-latest-nba-partnership-kalshi",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:53+00:00"
+  },
+  {
+   "t": "Pistons' Duren (hamstring) practices, will begin rehab assignment",
+   "u": "https://www.espn.com/nba/story/_/id/50586890/jalen-duren-begin-rehab-assignment-next-step-return-injury",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:53+00:00"
+  },
+  {
+   "t": "Embiid misses game with illness as 76ers fall to Trail Blazers",
+   "u": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:53+00:00"
+  },
+  {
+   "t": "Vocal Green swats back at online critics, fuels Warriors' victory over Celtics",
+   "u": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:53+00:00"
+  },
+  {
+   "t": "🍼 'Baby Hali': Tyrese and Jade Haliburton announce they are expecting their first child",
+   "u": "https://www.espn.com/nba/story/_/id/50586828/tyrese-jade-haliburton-expecting-first-child",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:53+00:00"
+  },
+  {
+   "t": "Winning time: Tracy Morgan bought Knicks Rolexes after Finals victory",
+   "u": "https://www.espn.com/nba/story/_/id/50585929/tracy-morgan-new-york-knicks-rolexes",
+   "s": "ESPN",
+   "l": "en",
+   "c": "nba",
+   "d": "2026-11-24T23:47+00:00"
+  },
+  {
+   "t": "Las palabras de Aleksander Sekulic tras la derrota frente al Fenerbahçe",
+   "u": "https://www.gigantes.com/euroliga/palabras-aleksander-sekulic-fenerbahce-derrota/",
+   "s": "Gigantes del Basket",
+   "l": "es",
+   "c": "euroleague",
+   "d": "2026-11-24T23:18+00:00"
+  },
+  {
+   "t": "Shields sinks seven three-pointers and shines in Fenerbahce’s victory",
+   "u": "https://www.eurohoops.net/en/euroleague/2040291/shields-sinks-seven-three-pointers-and-shines-in-fenerbahces-victory/",
+   "s": "Eurohoops",
+   "l": "en",
+   "c": "euroleague",
+   "d": "2026-11-24T22:44+00:00"
+  },
+  {
+   "t": "Las palabras de Xavi Albert tras caer ante el Panathinaikos sobre la bocina",
+   "u": "https://www.gigantes.com/euroliga/palabras-xavi-albert-panathinaikos-hayes-davis-derrota/",
+   "s": "Gigantes del Basket",
+   "l": "es",
+   "c": "euroleague",
+   "d": "2026-11-24T22:27+00:00"
+  },
+  {
+   "t": "Qué ha pasado hoy en la Euroliga: Barça y Valencia Basket caen ante Fenerbahçe y Panathinaikos",
+   "u": "https://www.gigantes.com/euroliga/que-ha-pasado-hoy-jornada14-euroliga-2026/",
+   "s": "Gigantes del Basket",
+   "l": "es",
+   "c": "euroleague",
+   "d": "2026-11-24T22:17+00:00"
+  },
+  {
+   "t": "El Barça no levanta cabeza y vuelve a perder en el Palau",
+   "u": "https://www.eurohoops.net/es/euroleague-es/2040215/el-barca-no-levanta-cabeza-y-vuelve-a-perder-en-el-palau/",
+   "s": "Eurohoops",
+   "l": "es",
+   "c": "acb",
+   "d": "2026-11-24T22:12+00:00"
+  },
+  {
+   "t": "Resumen de la Euroliga: séptima seguida para París, la Virtus puede con Estrella Roja",
+   "u": "https://www.eurohoops.net/es/euroleague-es/2040247/resumen-de-la-euroliga-septima-seguida-para-paris-la-virtus-puede-con-estrella-roja/",
+   "s": "Eurohoops",
+   "l": "es",
+   "c": "euroleague",
+   "d": "2026-11-24T22:04+00:00"
+  },
+  {
+   "t": "Nigel Hayes-Davis repeats history in Valencia",
+   "u": "https://www.eurohoops.net/en/euroleague/2040231/nigel-hayes-davis-repeats-history-in-valencia/",
+   "s": "Eurohoops",
+   "l": "en",
+   "c": "euroleague",
+   "d": "2026-11-24T21:53+00:00"
+  },
+  {
+   "t": "Hayes-Davis baja de la nube al Valencia sobre la bocina",
+   "u": "https://www.eurohoops.net/es/euroleague-es/2040165/hayes-davis-baja-de-la-nube-a-valencia-sobre-la-bocina/",
+   "s": "Eurohoops",
+   "l": "es",
+   "c": "international",
+   "d": "2026-11-24T21:44+00:00"
+  },
+  {
+   "t": "La canasta de Hayes-Davis para darle la victoria al Panathinaikos en el Roig Arena",
+   "u": "https://www.gigantes.com/euroliga/canasta-ganadora-hayes-davis-euroliga-valencia/",
+   "s": "Gigantes del Basket",
+   "l": "es",
+   "c": "euroleague",
+   "d": "2026-11-24T21:41+00:00"
+  },
+  {
+   "t": "EuroLeague roundup: Hayes-Davis at the buzzer for PAO, 7th win in a row for Paris, six road wins on the night",
    "u": "https://www.eurohoops.net/en/euroleague/2040090/euroleague-roundup-paris-clinches-seventh-win-in-a-row/",
    "s": "Eurohoops",
    "l": "en",
@@ -74,62 +242,6 @@
    "d": "2026-11-24T17:34+00:00"
   },
   {
-   "t": "Wolves' DiVincenzo cleared for basketball activities",
-   "u": "https://www.espn.com/nba/story/_/id/50584000/wolves-dante-divincenzo-cleared-basketball-activities",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-24T17:25+00:00"
-  },
-  {
-   "t": "Spurs rule Wembanyama, Fox out 90 minutes before victory over Kings",
-   "u": "https://www.espn.com/nba/story/_/id/50578664/spurs-victor-wembanyama-deaaron-fox-kings",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-24T17:25+00:00"
-  },
-  {
-   "t": "Grizzlies rookie Boozer out with sprained right ankle",
-   "u": "https://www.espn.com/nba/story/_/id/50577588/grizzlies-cameron-boozer-ankle-reevaluated-4-weeks",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-24T17:25+00:00"
-  },
-  {
-   "t": "Embiid misses game with illness as 76ers fall to Trail Blazers",
-   "u": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-24T17:25+00:00"
-  },
-  {
-   "t": "Vocal Green swats back at online critics, fuels Warriors' victory over Celtics",
-   "u": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-24T17:25+00:00"
-  },
-  {
-   "t": "Nets guard Traore (hamstring) to be reevaluated in 8-10 weeks",
-   "u": "https://www.espn.com/nba/story/_/id/50573732/nets-nolan-traore-hamstring-reevaluated-8-10-weeks",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-24T17:25+00:00"
-  },
-  {
-   "t": "👀 What the first month has revealed about all 30 teams",
-   "u": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-24T17:25+00:00"
-  },
-  {
    "t": "Pedro Martínez: “Se nos está haciendo un poco largo recuperar a jugadores importantes”",
    "u": "https://www.eurohoops.net/es/euroleague-es/2040116/pedro-martinez-se-nos-esta-haciendo-un-poco-largo-recuperar-a-jugadores-importantes/",
    "s": "Eurohoops",
@@ -186,22 +298,6 @@
    "d": "2026-11-24T15:48+00:00"
   },
   {
-   "t": "Nuevo episodio de Gigantes de la Euroliga: programa semanal de actualidad y Fantasy",
-   "u": "https://www.gigantes.com/euroliga/semana-negra-equipos-espanoles-gigantes-de-la-euroliga/",
-   "s": "Gigantes del Basket",
-   "l": "es",
-   "c": "euroleague",
-   "d": "2026-11-24T15:40+00:00"
-  },
-  {
-   "t": "XXXII Viaje USA 2026. Washington – Crónica 1ª parte",
-   "u": "https://www.gigantes.com/mas-basket/xxxii-viaje-usa-2026-washington-cronica-1a-parte/",
-   "s": "Gigantes del Basket",
-   "l": "es",
-   "c": "international",
-   "d": "2026-11-24T15:35+00:00"
-  },
-  {
    "t": "Savannah James seeks restraining orders following Los Angeles intrusions",
    "u": "https://www.eurohoops.net/en/nba-news/2040077/savannah-james-requests-restraining-orders-against-two-men-lebron-james-philadelphia-76ers-nba/",
    "s": "Eurohoops",
@@ -232,14 +328,6 @@
    "l": "en",
    "c": "nba",
    "d": "2026-11-24T12:38+00:00"
-  },
-  {
-   "t": "El mejor partido de Sara Okeke en la NCAA: Así está siendo su inicio con USC",
-   "u": "https://www.gigantes.com/ncaa/sara-okeke-usc-mejor-partido-ncaa/",
-   "s": "Gigantes del Basket",
-   "l": "es",
-   "c": "international",
-   "d": "2026-11-24T12:32+00:00"
   },
   {
    "t": "Bartzokas confirms Nikola Milutinov return, addresses Olympiacos market search",
@@ -346,52 +434,12 @@
    "d": "2026-11-24T05:36+00:00"
   },
   {
-   "t": "Cleveland Cavaliers become first NBA team to practice at Obama Presidential Center",
-   "u": "https://www.espn.com/nba/story/_/id/50575533/cleveland-cavaliers-obama-presidential-center",
-   "s": "ESPN",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-23T23:09+00:00"
-  },
-  {
-   "t": "Nikola Jokic named Western Conference Player of the Week",
-   "u": "https://www.eurohoops.net/en/nba-news/2039826/nikola-jokic-named-western-conference-player-of-the-week-5/",
-   "s": "Eurohoops",
-   "l": "en",
-   "c": "international",
-   "d": "2026-11-23T20:43+00:00"
-  },
-  {
    "t": "Turkoglu confirma que Biberovic sigue teniendo condición de nacionalizado",
    "u": "https://www.eurohoops.net/es/fiba-world-cup-es/2039800/turkoglu-confirma-que-biberovic-sigue-teniendo-condicion-de-nacionalizado/",
    "s": "Eurohoops",
    "l": "es",
    "c": "international",
    "d": "2026-11-23T19:12+00:00"
-  },
-  {
-   "t": "Turkoglu confirms Biberovic still holds the status of naturalized player",
-   "u": "https://www.eurohoops.net/en/fibawc/2039791/turkoglu-confirms-biberovic-still-holds-the-status-of-naturalized-player/",
-   "s": "Eurohoops",
-   "l": "en",
-   "c": "international",
-   "d": "2026-11-23T19:09+00:00"
-  },
-  {
-   "t": "Orlando Magic and Denver Nuggets emerge as suitors for Kevin Porter Jr.",
-   "u": "https://www.eurohoops.net/en/nba-news/2039781/orlando-magic-and-denver-nuggets-emerge-as-suitors-for-kevin-porter-jr/",
-   "s": "Eurohoops",
-   "l": "en",
-   "c": "nba",
-   "d": "2026-11-23T18:19+00:00"
-  },
-  {
-   "t": "Nolan Traoré sidelined for at least eight weeks",
-   "u": "https://www.eurohoops.net/en/nba-news/2039722/nolan-traore-sidelined-for-at-least-eight-weeks/",
-   "s": "Eurohoops",
-   "l": "en",
-   "c": "international",
-   "d": "2026-11-23T15:49+00:00"
   },
   {
    "t": "ASVEL y Myles Cale separan sus caminos",
@@ -416,14 +464,6 @@
    "l": "es",
    "c": "international",
    "d": "2026-11-23T14:06+00:00"
-  },
-  {
-   "t": "Fenerbahce leader blasts officiating after Besiktas loss: “Comedy dance trio”",
-   "u": "https://www.eurohoops.net/en/tbl/2039649/fenerbahce-reaction-to-referees-besiktas-loss-bsl-euroleague/",
-   "s": "Eurohoops",
-   "l": "en",
-   "c": "euroleague",
-   "d": "2026-11-23T12:08+00:00"
   },
   {
    "t": "Partizan gets Vildoza back for Dubai rematch, Willis out",
@@ -522,30 +562,6 @@
    "d": "2026-11-22T11:07+00:00"
   },
   {
-   "t": "Wembanyama, tras anotar 50 puntos: «A diferencia de cualquiera de mis compañeros, no se me da bien inflar mis estadísticas»",
-   "u": "https://www.eurohoops.net/es/nba-news-es/2039065/wembanyama-tras-anotar-50-puntos-a-diferencia-de-cualquiera-de-mis-companeros-no-se-me-da-bien-inflar-mis-estadisticas/",
-   "s": "Eurohoops",
-   "l": "es",
-   "c": "nba",
-   "d": "2026-11-22T11:03+00:00"
-  },
-  {
-   "t": "Resumen de la NBA: Partido histórico de 50 puntos para Wemby; Bridges anota la canasta ganadora para los Knicks",
-   "u": "https://www.eurohoops.net/es/nba-news-es/2039066/resumen-de-la-nba-partido-historico-de-50-puntos-para-wemby-bridges-anota-la-canasta-ganadora-para-los-knicks/",
-   "s": "Eurohoops",
-   "l": "es",
-   "c": "nba",
-   "d": "2026-11-22T11:02+00:00"
-  },
-  {
-   "t": "El vestuario del Barça estalla contra los arbitrajes: “Estamos jugando cinco contra ocho”",
-   "u": "https://www.eurohoops.net/es/euroleague-es/2038946/el-vestuario-del-barca-estalla-contra-los-arbitrajes-estamos-jugando-cinco-contra-ocho/",
-   "s": "Eurohoops",
-   "l": "es",
-   "c": "acb",
-   "d": "2026-11-22T08:02+00:00"
-  },
-  {
    "t": "Beşiktaş reaches agreement with Reggie Perry",
    "u": "https://www.eurohoops.net/en/euroleague/2038913/besiktas-reaches-agreement-with-reggie-perry/",
    "s": "Eurohoops",
@@ -576,22 +592,6 @@
    "l": "en",
    "c": "euroleague",
    "d": "2026-11-21T09:25+00:00"
-  },
-  {
-   "t": "Tyson Carter’s comeback reaches new heights in Barcelona",
-   "u": "https://www.eurohoops.net/en/euroleague/2038539/tyson-carters-comeback-reaches-new-heights-in-barcelona/",
-   "s": "Eurohoops",
-   "l": "en",
-   "c": "euroleague",
-   "d": "2026-11-20T22:35+00:00"
-  },
-  {
-   "t": "Tyrique Jones channels Vezenkov: “I had a little Sasha in me”",
-   "u": "https://www.eurohoops.net/en/euroleague/2038456/tyrique-jones-channels-vezenkov-i-had-a-little-sasha-in-me/",
-   "s": "Eurohoops",
-   "l": "en",
-   "c": "euroleague",
-   "d": "2026-11-20T21:34+00:00"
   }
  ]
 }
