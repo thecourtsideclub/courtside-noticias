@@ -1,10 +1,10 @@
 name: Actualizar titulares
 
-# Se ejecuta a las 8:00 y a las 20:00 (hora de Madrid), también en horario de verano.
+# Se ejecuta a las 12:00 y a las 21:00 (hora de Madrid), también en horario de verano.
 # GitHub usa la hora UTC, así que se lanza a dos horas posibles y solo continúa la que coincide.
 on:
   schedule:
-    - cron: "0 6,7,18,19 * * *"
+    - cron: "0 10,11,19,20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
         run: |
           H=$(TZ=Europe/Madrid date +%H)
           echo "Hora en Madrid: $H"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" = "08" ] || [ "$H" = "20" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" = "12" ] || [ "$H" = "21" ]; then
             echo "go=1" >> "$GITHUB_OUTPUT"
           else
             echo "go=0" >> "$GITHUB_OUTPUT"
@@ -36,6 +36,8 @@ jobs:
           import json, re, html, urllib.request, datetime, email.utils, xml.etree.ElementTree as ET
 
           FEEDS = [
+              {"url": "https://www.gigantes.com/primera-feb/feed/", "s": "Gigantes del Basket", "l": "es", "c": "feb", "days": 21},
+              {"url": "https://encestando.es/primera-feb/feed/", "s": "Encestando", "l": "es", "c": "feb", "days": 21},
               {"url": "https://www.eurohoops.net/es/feed/", "s": "Eurohoops", "l": "es"},
               {"url": "https://www.gigantes.com/feed/", "s": "Gigantes del Basket", "l": "es"},
               {"url": "https://www.espn.com/espn/rss/nba/news", "s": "ESPN", "l": "en", "c": "nba"},
@@ -45,7 +47,8 @@ jobs:
           RULES = [
               ("nba", r"\bNBA\b|Lakers|Celtics|Warriors|Knicks|Bulls|Heat|Spurs|Mavericks|Mavs|Nuggets|Thunder|Bucks|Suns|Clippers|Rockets|Grizzlies|Pelicans|Timberwolves|Wolves|Kings|Jazz|Blazers|Trail Blazers|Hawks|Hornets|Pistons|Pacers|Cavaliers|Cavs|Raptors|Nets|76ers|Sixers|Magic|Wizards|G League|Wembanyama"),
               ("euroleague", r"EuroLeague|Euroliga|Euroleague|EuroCup|Eurocup|Final Four|Olympiacos|Olympiakos|Panathinaikos|Fenerbah|Efes|Partizan|Crvena|Red Star|Estrella Roja|Maccabi|Hapoel|Zalgiris|Žalgiris|Baskonia|Monaco|Virtus|Olimpia Milano|Armani|Bayern|ASVEL|Paris Basketball|Dubai Basketball"),
-              ("acb", r"\bACB\b|\bacb\b|Liga Endesa|Copa del Rey|Supercopa|Unicaja|Joventut|Gran Canaria|Tenerife|Bilbao|Manresa|Lleida|Breog|Murcia|Granada|Andorra|Burgos|Zaragoza|Girona|Valencia Basket|Real Madrid|Barça|Barcelona|Estudiantes|Primera FEB"),
+              ("feb", r"Primera FEB|Primera Feb|LEB Oro|Segunda FEB|Estudiantes|\bEstu\b|Fuenlabrada|Palencia|Ourense|Oviedo|HLA Alicante|Alicante|Alega Cantabria|Cantabria|Menorca|Albacete|C[oó]rdoba|Zamora|Gipuzkoa|Caja 87|Fibwi|Palmer|Cov[ií]r[aá]n Granada|Granada|Burgos"),
+              ("acb", r"\bACB\b|\bacb\b|Liga Endesa|Copa del Rey|Supercopa|Unicaja|Joventut|Gran Canaria|Tenerife|Bilbao|Manresa|Lleida|Breog|Murcia|Andorra|Zaragoza|Girona|Valencia Basket|Real Madrid|Barça|Barcelona|Baskonia"),
               ("fiba", r"\bFIBA\b|Mundial|World Cup|EuroBasket|Eurobasket|AmeriCup|Olímpic|Olympic|selección|Selección|national team|ventana|window|Qualifiers|clasificatorio"),
           ]
           SKIP = r"Black Friday|descuento|oferta|suscr[ií]bete|sorteo|giveaway|cup[oó]n|podcast"
@@ -85,7 +88,7 @@ jobs:
                   yield title, link, date
 
           now = datetime.datetime.now(datetime.timezone.utc)
-          limit = now - datetime.timedelta(days=4)
+          DEFAULT_DAYS = 4
           out, seen = [], set()
           for f in FEEDS:
               try:
@@ -94,7 +97,7 @@ jobs:
                   for title, link, date in items_of(data):
                       if not title or not link.startswith("http") or link in seen: continue
                       if re.search(SKIP, title, re.I): continue
-                      if date and date < limit: continue
+                      if date and date < now - datetime.timedelta(days=f.get("days", DEFAULT_DAYS)): continue
                       cat = f.get("c")
                       if not cat:
                           cat = next((c for c, rx in RULES if re.search(rx, title)), "international")
@@ -110,7 +113,7 @@ jobs:
           out.sort(key=lambda i: i["d"], reverse=True)
           if out:
               with open("noticias.json", "w", encoding="utf-8") as fh:
-                  json.dump({"updated": now.isoformat(timespec="minutes"), "items": out[:120]}, fh, ensure_ascii=False, indent=1)
+                  json.dump({"updated": now.isoformat(timespec="minutes"), "items": out[:180]}, fh, ensure_ascii=False, indent=1)
               print("Titulares guardados:", len(out))
           else:
               print("No se ha descargado ningún titular; se mantiene el archivo anterior.")
