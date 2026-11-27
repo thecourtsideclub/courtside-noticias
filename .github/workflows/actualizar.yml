@@ -38,6 +38,9 @@ jobs:
           FEEDS = [
               {"url": "https://www.gigantes.com/primera-feb/feed/", "s": "Gigantes del Basket", "l": "es", "c": "feb", "days": 21},
               {"url": "https://encestando.es/primera-feb/feed/", "s": "Encestando", "l": "es", "c": "feb", "days": 21},
+              {"url": "https://www.gigantes.com/liga-femenina/feed/", "s": "Gigantes del Basket", "l": "es", "c": "women", "days": 30},
+              {"url": "https://www.gigantes.com/euroleague-women/feed/", "s": "Gigantes del Basket", "l": "es", "c": "women", "days": 30},
+              {"url": "https://www.gigantes.com/wnba/feed/", "s": "Gigantes del Basket", "l": "es", "c": "women", "days": 30},
               {"url": "https://www.eurohoops.net/es/feed/", "s": "Eurohoops", "l": "es"},
               {"url": "https://www.gigantes.com/feed/", "s": "Gigantes del Basket", "l": "es"},
               {"url": "https://www.espn.com/espn/rss/nba/news", "s": "ESPN", "l": "en", "c": "nba"},
@@ -45,6 +48,7 @@ jobs:
               {"url": "https://www.eurohoops.net/en/feed/", "s": "Eurohoops", "l": "en"},
           ]
           RULES = [
+              ("women", r"Liga Femenina|LF Endesa|LF Challenge|EuroLeague Women|EuroCup Women|Euroliga [Ff]emenina|\bWNBA\b|[Ff]emenin|[Ss]elecci[oó]n femenina|Women's|women's"),
               ("nba", r"\bNBA\b|Lakers|Celtics|Warriors|Knicks|Bulls|Heat|Spurs|Mavericks|Mavs|Nuggets|Thunder|Bucks|Suns|Clippers|Rockets|Grizzlies|Pelicans|Timberwolves|Wolves|Kings|Jazz|Blazers|Trail Blazers|Hawks|Hornets|Pistons|Pacers|Cavaliers|Cavs|Raptors|Nets|76ers|Sixers|Magic|Wizards|G League|Wembanyama"),
               ("euroleague", r"EuroLeague|Euroliga|Euroleague|EuroCup|Eurocup|Final Four|Olympiacos|Olympiakos|Panathinaikos|Fenerbah|Efes|Partizan|Crvena|Red Star|Estrella Roja|Maccabi|Hapoel|Zalgiris|Žalgiris|Baskonia|Monaco|Virtus|Olimpia Milano|Armani|Bayern|ASVEL|Paris Basketball|Dubai Basketball"),
               ("feb", r"Primera FEB|Primera Feb|LEB Oro|Segunda FEB|Estudiantes|\bEstu\b|Fuenlabrada|Palencia|Ourense|Oviedo|HLA Alicante|Alicante|Alega Cantabria|Cantabria|Menorca|Albacete|C[oó]rdoba|Zamora|Gipuzkoa|Caja 87|Fibwi|Palmer|Cov[ií]r[aá]n Granada|Granada|Burgos"),
@@ -68,7 +72,7 @@ jobs:
               return d.astimezone(datetime.timezone.utc)
 
           def fetch(url):
-              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (COURTSIDE headlines; +https://thecourtsideclub.netlify.app)"})
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (COURTSIDE headlines; +https://thecourtsideclub.pages.dev)"})
               with urllib.request.urlopen(req, timeout=20) as r:
                   return r.read()
 
